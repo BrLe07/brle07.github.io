@@ -25,6 +25,19 @@
             
         }
         
+        .grid {
+            background-color:  black;
+            border:1px solid black;
+            display: inline-block;
+            margin:8px;
+            color:black;
+        }
+
+        #carousel {
+            background-color: black;
+            padding:15px;
+        }
+        
         #links {
             color:paleturquoise;
             background:black;
@@ -85,6 +98,12 @@
             margin-left: auto;
             margin-right: auto
         }
+        
+        #Scratch {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
     </style>
     
     
@@ -102,12 +121,35 @@
         </div>
         
         <div id="Main">
-                <h2 id="mainbodytitle">ABC Photography Project</h2>
-                <p id="mainbody1"></p>
-                <img src="http://www.addimages.net/images/2015/10/12/IMG_6523edited.jpg" border="0" width=250px align=center>
-           
-
-
+                
+   <div id="carousel">
+      <h2>My Work</h2>
+      <!-- The div below shows an Embedded Scratch Project -->
+      <!-- TODO: Update for your Maze Game -->
+      <div class="grid">
+              <iframe allowtransparency="true" width="430" height="400" src="//scratch.mit.edu/projects/embed/90690109/?autostart=false" frameborder="5" allowfullscreen></iframe>
+        <p><a href="https://scratch.mit.edu/projects/90690109/" target="_blank">Maze Game</a></p>
+      </div>
+      
+      <!-- The div below is a screenshot of a document that you can click on to get to the document-->
+      <!-- TODO: Update for your Project: Shooting Star -->
+      <div class="grid">
+        <a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-shooting-star/6063824853925888" target="_blank"><img src="./img/Shooting.png" alt="Project Shooting Star" width="350"></a>
+        <p><a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-shooting-star/6063824853925888" target="_blank">Project Shooting Star</a></p>
+      </div>
+      
+      <!-- The div below is an example of a linked Google Doc -->
+      <!-- TODO: Update for your Algebra Challenge 2 (The fish tank one) -->
+      <div class="grid">
+        <iframe src="https://docs.google.com/document/d/1rsB2LVcl-3-WIjZhsGlEaUVHg7ug4a1V5M5-bO6ZHnQ/pub?embedded=true"></iframe>
+        <p><a href="https://docs.google.com/document/d/1rsB2LVcl-3-WIjZhsGlEaUVHg7ug4a1V5M5-bO6ZHnQ/pub?embedded=true" target="_blank">Q3 Algebra Challenge</a></p>
+      </div>
+      
+      
+    </div>
+  </div>
+        </div>
+        
     </body>
 </html>
 
